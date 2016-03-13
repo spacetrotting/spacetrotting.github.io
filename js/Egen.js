@@ -37,8 +37,8 @@ function Hem() {
         var elm = document.getElementById("huvudmeny"), newone = elm.cloneNode(true);
         elm.parentNode.replaceChild(newone, elm);
         
-        /*document.getElementById("logga").style.transition = "opacity 0.5s linear 1s";
-        document.getElementById("logga").style.opacity = 1;*/
+        document.getElementById("logga").style.transition = "opacity 0.5s linear 1s";
+        document.getElementById("logga").style.opacity = 1;
         
         // CONTENT
         document.getElementById("content").style.transition = "all 1s linear";
