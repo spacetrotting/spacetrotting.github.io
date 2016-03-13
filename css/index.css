@@ -241,6 +241,19 @@ p {
     #bakgrund {
         display: none;
     }
+    
+    #content {
+        padding: 5px 10px;
+    }
+    
+    #content article {
+        font-size: 11pt;
+        padding: 5px;
+    }
+    
+    #underline {
+        display: none;
+    }
 }
 
 /* BREAKPOINTS SLUT */
