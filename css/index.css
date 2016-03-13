@@ -55,6 +55,7 @@ html {
     width: 100%;
     height: 100%;
     position: fixed;
+    display: block;
 }
 
 /* GRUND SLUT */
@@ -235,6 +236,10 @@ p {
     #citat {
         color: black;
         
+    }
+    
+    #bakgrund {
+        display: none;
     }
 }
 
