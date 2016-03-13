@@ -50,6 +50,13 @@ html {
     border: none;
 }
 
+#bakgrund {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
 /* GRUND SLUT */
 
 /* HUVUDMENY */
@@ -212,6 +219,9 @@ p {
     
     #logga {
         top: 15vh;
+        max-width: 50%;
+        max-height: 400px;
+        left: 25%;
     }
     
     #preview {
@@ -253,12 +263,3 @@ p {
 }
 
 /* KEYFRAMES SLUT */
-
-/* BAKGRUND */
-
-#bakgrund {
-    z-index: 0;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-}
